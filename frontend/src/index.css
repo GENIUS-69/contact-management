@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Theme variables */
+@theme {
+  --color-primary: #022B3A;
+  --color-accent: #1F7A8C;
+  --color-highlight: #BFDBF7;
+  --color-background: #E1E5F2;
+  --color-white: #FFFFFF;
+}
+
+/* Global styles */
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
